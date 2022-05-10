@@ -1,8 +1,8 @@
-# OB+
+# Obsidian Default Theme... PLUS!
 
-WIP
+This theme is built on top of the default css for obsidian. I prefer the OEM obsidian theme, but I wanted more purple... but not TOO much purple!
 
-This theme is built on top of the default css for obsidian. 
+This will give you just enough purple.
 
 ## Installation
 
