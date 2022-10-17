@@ -571,6 +571,15 @@ body {
     --input-shadow-hover: inset 0 0.5px 1px 0.5px rgba(255, 255, 255, 0.16), 0 2px 3px 0 rgba(0, 0, 0, .3), 0 1px 1.5px 0 rgba(0, 0, 0, .2), 0 1px 2px 0 rgba(0, 0, 0, .4), 0 0 0 0 transparent;
     --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.121), 0px 3.4px 6.7px rgba(0, 0, 0, 0.179), 0px 15px 30px rgba(0, 0, 0, 0.3);
     --shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071), 0px 6.3px 24.7px rgba(0, 0, 0, 0.112), 0px 30px 90px rgba(0, 0, 0, 0.2);
+    --obplus-h1-color: #7c80ff;
+    --obplus-h2-color: #9688ff;
+    --obplus-h3-color: #ad94ff;
+    --obplus-h4-color: #bd9dff;
+    --obplus-h5-color: #af9fd9;
+    --obplus-h6-color: #c8bff0;
+    --obplus-italic-color: #9d92d0;
+    --obplus-bold-color: #979eff;
+    --obplus-ln-color: #d7d7d7;
 }
 
 iframe {
@@ -7677,7 +7686,7 @@ h1,
     letter-spacing: -0.015em;
     line-height: var(--h1-line-height);
     font-size: var(--h1-size);
-    color: var(--h1-color);
+    color: var(--obplus-h1-color);
     font-weight: var(--h1-weight);
     font-style: var(--h1-style);
     font-family: var(--h1-font);
@@ -7698,7 +7707,7 @@ h2,
     letter-spacing: -0.015em;
     line-height: var(--h2-line-height);
     font-size: var(--h2-size);
-    color: var(--h2-color);
+    color: var(--obplus-h2-color);
     font-weight: var(--h2-weight);
     font-style: var(--h2-style);
     font-family: var(--h2-font);
@@ -7719,7 +7728,7 @@ h3,
     letter-spacing: -0.015em;
     line-height: var(--h3-line-height);
     font-size: var(--h3-size);
-    color: var(--h3-color);
+    color: var(--obplus-h3-color);
     font-weight: var(--h3-weight);
     font-style: var(--h3-style);
     font-family: var(--h3-font);
@@ -7740,7 +7749,7 @@ h4,
     letter-spacing: 0.015em;
     line-height: var(--h4-line-height);
     font-size: var(--h4-size);
-    color: var(--h4-color);
+    color: var(--obplus-h4-color);
     font-weight: var(--h4-weight);
     font-style: var(--h4-style);
     font-family: var(--h4-font);
@@ -7761,7 +7770,7 @@ h5,
     letter-spacing: 0.015em;
     font-size: var(--h5-size);
     line-height: var(--h5-line-height);
-    color: var(--h5-color);
+    color: var(--obplus-h5-color);
     font-weight: var(--h5-weight);
     font-style: var(--h5-style);
     font-family: var(--h5-font);
@@ -7782,7 +7791,7 @@ h6,
     letter-spacing: 0.015em;
     font-size: var(--h6-size);
     line-height: var(--h6-line-height);
-    color: var(--h6-color);
+    color: var(--obplus-h6-color);
     font-weight: var(--h6-weight);
     font-style: var(--h6-style);
     font-family: var(--h6-font);
@@ -8778,13 +8787,13 @@ ul>li.task-list-item[data-task="X"] {
 strong,
 .cm-strong {
     font-weight: var(--bold-weight);
-    color: var(--bold-color);
+    color: var(--obplus-bold-color);
 }
 
 em,
 .cm-em {
     font-style: italic;
-    color: var(--italic-color);
+    color: var(--obplus-italic-color);
 }
 
 .cm-s-obsidian span.cm-comment {
