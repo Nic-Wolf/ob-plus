@@ -579,7 +579,9 @@ body {
     --obplus-h6-color: #c8bff0;
     --obplus-italic-color: #9d92d0;
     --obplus-bold-color: #979eff;
-    --obplus-interactive-accent: #d563f1;
+    --obplus-interactive-accent: #c361db;
+    --obplus-inline-title-color: #b5b9e9;
+    --obplus-inline-title-size: 1em;
 }
 
 iframe {
@@ -2197,14 +2199,14 @@ body.is-phone .view-header,
 
 .inline-title {
     font-weight: var(--inline-title-weight);
-    font-size: var(--inline-title-size);
+    font-size: var(--obplus-inline-title-size);
     line-height: var(--inline-title-line-height);
     font-style: var(--inline-title-style);
     font-variant: var(--inline-title-variant);
     font-family: var(--inline-title-font);
     padding-bottom: 0.5em;
     letter-spacing: -0.015em;
-    color: var(--inline-title-color);
+    color: var(--obplus-inline-title-color);
 }
 
 body:not(.show-inline-title) .inline-title {
