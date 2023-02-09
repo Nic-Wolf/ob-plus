@@ -571,12 +571,12 @@ body {
     --input-shadow-hover: inset 0 0.5px 1px 0.5px rgba(255, 255, 255, 0.16), 0 2px 3px 0 rgba(0, 0, 0, .3), 0 1px 1.5px 0 rgba(0, 0, 0, .2), 0 1px 2px 0 rgba(0, 0, 0, .4), 0 0 0 0 transparent;
     --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.121), 0px 3.4px 6.7px rgba(0, 0, 0, 0.179), 0px 15px 30px rgba(0, 0, 0, 0.3);
     --shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071), 0px 6.3px 24.7px rgba(0, 0, 0, 0.112), 0px 30px 90px rgba(0, 0, 0, 0.2);
-    --obplus-h1-color: #7c90ff;
-    --obplus-h2-color: #8b84f0;
+    --obplus-h1-color: #9d6bff;
+    --obplus-h2-color: #9e88ff;
     --obplus-h3-color: #ad94ff;
     --obplus-h4-color: #cfadff;
     --obplus-h5-color: #d2c4fd;
-    --obplus-h6-color: #c0c9ea;
+    --obplus-h6-color: #bfc4e8;
     --obplus-italic-color: #9d92d0;
     --obplus-bold-color: #979eff;
     --obplus-interactive-accent: #c361db;
