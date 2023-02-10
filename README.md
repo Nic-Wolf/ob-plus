@@ -7,8 +7,9 @@ This will give you just enough purple.
 ## Installation
 
 1. Download this repo.
-1. Copy the `ob-plus.css` file into your vault's `/.obsidian/themes` directory.
-1. Open the **Settings** in Obsidian.
-1. Navigate to **Appearances** tab under **Options**.
-1. Under the **Themes** section, click on the dropdown menu next to **Theme** heading.
-1. Select `ob-plus` and then you're done!
+2. Copy the `OB+` folder, and paste it into your vault's themes folder.
+    eg: `Documents/your_notebook_vault/.obsidian/themes/`
+3. Open the **Settings** in Obsidian.
+4. Navigate to **Appearances** tab under **Options**.
+5. Under the **Themes** section, click on the dropdown menu next to **Theme** heading.
+6. Select `ob-plus` and then you're done!
