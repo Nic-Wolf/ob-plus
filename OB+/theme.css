@@ -45,8 +45,8 @@ body {
     --checkbox-color-hover: var(--interactive-accent-hover);
     --checkbox-border-color: var(--text-faint);
     --checkbox-border-color-hover: var(--text-muted);
-    --checklist-done-decoration: line-through;
-    --checklist-done-color: var(--text-muted);
+    --checklist-done-decoration: none;
+    --checklist-done-color: var(--color-base-55);
     /* Code */
     --code-size: var(--font-smaller);
     --code-background: var(--background-primary-alt);
@@ -510,6 +510,7 @@ body {
     --color-base-35: #d4d4d4;
     --color-base-40: #bdbdbd;
     --color-base-50: #ababab;
+    --color-base-55: #8a8a8a;
     --color-base-60: #707070;
     --color-base-70: #5a5a5a;
     --color-base-100: #222222;
@@ -551,6 +552,7 @@ body {
     --color-base-35: #3F3F3F;
     --color-base-40: #555;
     --color-base-50: #666;
+    --color-base-55: #888;
     --color-base-60: #999;
     --color-base-70: #bababa;
     --color-base-100: #dadada;
