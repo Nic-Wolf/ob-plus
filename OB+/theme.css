@@ -6474,7 +6474,8 @@ body:not(.is-translucent):not(.is-mobile) .workspace-tabs {
 }
 
 .tree-item .tree-item-self .tree-item-icon {
-    margin-left: calc(var(--size-4-1) * -1);
+    /* ob-plus */
+    margin-left: calc(var(--size-4-1) * -3.8);
 }
 
 .tree-item>.tree-item .tree-item-self {
@@ -6516,6 +6517,8 @@ body:not(.is-translucent):not(.is-mobile) .workspace-tabs {
 .tree-item-self .tree-item-icon .svg-icon:not(.right-triangle) {
     --icon-size: var(--icon-s);
     --icon-stroke: var(--icon-s-stroke-width);
+    /* ob-plus */
+    color: #7c47df;
 }
 
 .tree-item-flair-outer {
