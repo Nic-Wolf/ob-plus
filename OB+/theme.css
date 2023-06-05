@@ -273,6 +273,9 @@ body {
     --nav-indentation-guide-color: var(--indentation-guide-color);
     --nav-collapse-icon-color: var(--collapse-icon-color);
     --nav-collapse-icon-color-collapsed: var(--text-faint);
+    --nav-item-color-obp: #662f96;
+    --nav-collapse-icon-color-obp: #c334e7;
+    --nav-collapse-icon-color-collapsed-obp: #662f96;
     /* Modals - e.g. settings, community themes, community plugins */
     --modal-background: var(--background-primary);
     --modal-width: 90vw;
@@ -3214,8 +3217,13 @@ body.is-frameless.is-hidden-frameless {
 }
 
 .is-translucent:not(.is-fullscreen) {
+    /*
     --nav-collapse-icon-color: rgba(var(--mono-rgb-100), 0.3);
     --nav-collapse-icon-color-collapsed: rgba(var(--mono-rgb-100), 0.3);
+    */
+    /* ob-plus */
+    --nav-collapse-icon-color: rgba(129, 55, 194, 0.9);
+    --nav-collapse-icon-color-collapsed: rgba(129, 55, 194, 0.9);
     --divider-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -4862,12 +4870,12 @@ h6:hover .collapse-indicator,
 
 .view-content .list-collapse-indicator svg.svg-icon,
 .view-content .collapse-indicator svg.svg-icon {
-    color: var(--collapse-icon-color);
+    color: var(--nav-collapse-icon-color-collapsed-obp);
 }
 
 .view-content .is-collapsed .list-collapse-indicator svg.svg-icon,
 .view-content .is-collapsed .collapse-indicator svg.svg-icon {
-    color: var(--collapse-icon-color-collapsed);
+    color: var(--nav-collapse-icon-color-collapsed-obp);
 }
 
 .collapse-icon {
@@ -4880,7 +4888,7 @@ h6:hover .collapse-indicator,
 }
 
 .collapse-icon svg.svg-icon {
-    color: var(--nav-collapse-icon-color);
+    color: var(--nav-collapse-icon-color-obp);
     stroke-width: 4px;
     width: 10px;
     height: 10px;
@@ -4889,7 +4897,7 @@ h6:hover .collapse-indicator,
 
 .is-collapsed .collapse-icon svg.svg-icon {
     transform: rotate(-90deg);
-    color: var(--nav-collapse-icon-color-collapsed);
+    color: var(--nav-collapse-icon-color-collapsed-obp);
 }
 
 .rtl .is-collapsed .collapse-icon svg.svg-icon {
@@ -6476,6 +6484,8 @@ body:not(.is-translucent):not(.is-mobile) .workspace-tabs {
 .tree-item .tree-item-self .tree-item-icon {
     /* ob-plus */
     margin-left: calc(var(--size-4-1) * -3.8);
+    color: var(--nav-item-color-obp);
+
 }
 
 .tree-item>.tree-item .tree-item-self {
@@ -6517,8 +6527,6 @@ body:not(.is-translucent):not(.is-mobile) .workspace-tabs {
 .tree-item-self .tree-item-icon .svg-icon:not(.right-triangle) {
     --icon-size: var(--icon-s);
     --icon-stroke: var(--icon-s-stroke-width);
-    /* ob-plus */
-    color: #7c47df;
 }
 
 .tree-item-flair-outer {
