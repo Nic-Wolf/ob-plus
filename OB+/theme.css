@@ -8020,11 +8020,10 @@ a {
 .external-link {
     color: var(--link-external-color);
     text-decoration-line: var(--link-external-decoration);
-    background-position: center right;
+    background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(transparent, transparent), url(public/images/874d8b8e340f75575caa.svg);
-    background-size: 13px;
-    padding-right: 16px;
+    background-size: 0.825em;
+    padding-right: 0.6em;
     background-position-y: 4px;
     cursor: var(--cursor-link);
     filter: var(--link-external-filter);
